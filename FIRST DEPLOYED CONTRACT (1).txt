@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: haydee
+pragma solidity 0.8.25;
+contract SimpleStorage{
+
+    uint256 public favnum; //my fav num is 7
+
+    function store(uint256 _favnum)  public{ favnum = _favnum;
+    } 
+
+   uint256 public myfavnum; //my fav num is 7
+
+    function story(uint256 _myfavnum)  public{ myfavnum = _myfavnum;
+    } 
+// i deployed this contract on etherscan with this id 0x2da96ab568df8b317f6de22d41efe0667e4b18538cdf8b44abe9d6778ca87ebb
+// this is my deployed address 0xCcD9AaB1E1F52bb5BA6ecDDCCabDCe4afba73dbFF
+
+}

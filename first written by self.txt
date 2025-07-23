@@ -1,0 +1,36 @@
+ // SPDX-License-Identifier: hay first learning
+ pragma solidity 0.8.19;
+
+ contract SimpleStorage {
+    // favnum will be initialized to 7
+
+    uint256 public favnum; //  favnum is 7
+
+function store(uint256 _favnum) public {
+     favnum = _favnum;
+      // in solidity we use the storage keyword to read and write the values
+    // it will store our value 7 into favnum variable. this is why we need public visibility modifier on store function
+   // the input hash for run ning this contract 0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203f8cbdcef036d67540f99bb52e969be6dbfc784f70dde8788bb6491b415800a464736f6c63430008130033
+ 
+
+
+    }
+   
+   uint256 public myfavnum; // myfavnum is 14
+   
+    function retrieve(uint256 _myfavnum) public {
+     myfavnum = _myfavnum;
+     }
+
+
+      uint256 public yourfavnum; // myfavnum is 21
+   
+    function get(uint256 _yourfavnum) public {
+     yourfavnum = _yourfavnum;
+     }
+
+ }
+ // calldata, memory,storage explanation
+ 
+
+ 
